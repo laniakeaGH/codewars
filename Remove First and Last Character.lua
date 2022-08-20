@@ -1,3 +1,4 @@
+
 local kata={}
 function kata.remove_chars(s)
   -- string.sub(s, i [,j])
@@ -6,3 +7,5 @@ function kata.remove_chars(s)
 end
 
 return kata
+-- or
+s = string.sub(s,2,-2)
