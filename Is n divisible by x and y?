@@ -1,0 +1,7 @@
+return function(n, x, y)
+  if n%x == 0 and n%y == 0 then
+    return true
+    else
+    return false
+    end
+end
