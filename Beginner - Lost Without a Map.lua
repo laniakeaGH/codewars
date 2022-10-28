@@ -1,11 +1,14 @@
 local solution = {}
-function solution.maps(numbers)
-  doubled_numbers = {}
 
-  for i,v in ipairs(numbers) do
-    doubled_numbers[i] = v*2
+function solution.maps(array)
+  
+  doubled_a = {} -- создание новой таблицы, там будут удвоенные значения
+  
+  for i,v in ipairs (array) do -- В цикле значения прошлой таблицы удваиваются
+    doubled_a[i] = v*2 -- удвоенные значения добавляются в новую таблицы
   end
-
-  return doubled_numbers -- your code here
+  
+ return doubled_a
 end
+
 return solution
