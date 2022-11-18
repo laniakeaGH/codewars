@@ -10,4 +10,5 @@ function digitize(n)
   
   return digits -- возвращение итоговой заполненной таблицы
 end
+
 return digitize
