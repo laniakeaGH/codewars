@@ -1,10 +1,12 @@
 kata = {}
+
 function kata.firstLua(a,b,c)
- result = a*b
+  result = a * b
+  
   if b >= c then
-    return a..' '..result.. ' Lua'
+    return a .. ' ' .. result .. ' Lua'
   else
-    return a..' '..result..' Codewars'
+    return a .. ' ' .. result .. ' Codewars'
   end
 end
 
